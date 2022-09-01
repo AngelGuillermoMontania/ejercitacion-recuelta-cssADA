@@ -1,0 +1,78 @@
+header {
+    background-color: #000000;
+    height: 3.5rem;
+    width: 90%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    z-index: 9999;
+}
+
+header .logo-header{
+    height: 50%;
+}
+
+header .logo-header:hover{
+    cursor: pointer;
+}
+
+header .contain-profile{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+header .contain-profile .contain-options{
+    display: none;
+}
+
+header .contain-profile .contain-options a{
+    text-decoration: none;
+}
+
+header .contain-profile .contain-options a:hover{
+    cursor: pointer;
+}
+
+header .contain-profile .profile {
+    display: flex;
+    align-items: center;
+}
+
+header .contain-profile .profile .img-profile{
+    background-image: url('../images/img-profile.png');
+    border-radius: 9999px;
+    height: 2rem;
+    background-size: contain;
+    width: 2rem;
+    margin: 0 8px;
+}
+
+header .contain-profile .profile .img-profile:hover {
+    cursor: pointer;
+}
+
+header .contain-profile .menu-profile{
+    color: white;
+    font-size: 1.7rem;
+}
+
+@media (min-width: 1024px) {
+
+    header {
+        height: 5rem;
+        justify-content: space-around;
+    }
+
+    header .contain-profile .menu-profile {
+        display: none;
+    }
+
+    header .contain-profile .contain-options{
+        display: flex;
+        width: 30vw;
+        justify-content: space-around;
+    }
+}

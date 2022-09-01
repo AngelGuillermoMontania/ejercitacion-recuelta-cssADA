@@ -1,0 +1,16 @@
+.help main {
+    background-color: rgb(41, 65, 171);
+    background-image: url("https://www-growth.scdn.co/static/home/bursts-mobile.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 15%;
+    min-height: 100vh;
+}
+
+@media (min-width: 1024px) {
+
+    .help main {
+        padding: 10% 15%;
+    }
+
+}

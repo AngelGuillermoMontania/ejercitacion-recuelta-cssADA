@@ -1,0 +1,14 @@
+@import url('./normalize.css');
+@import url('./header.css');
+@import url('./home.css');
+@import url('./help.css');
+@import url('./footer.css');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+}

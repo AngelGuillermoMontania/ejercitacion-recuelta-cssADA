@@ -1,0 +1,212 @@
+.home main {
+    background-color: rgb(41, 65, 171);
+    background-image: url("https://www-growth.scdn.co/static/home/bursts-mobile.svg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+
+.home main .contain-slogan {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home main .contain-slogan .card-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #17ae4e;
+    width: 90%;
+}
+
+.home main .contain-slogan .card-slogan .title{
+    font-size: 4rem;
+    margin: 0 0;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+}
+
+.home main .contain-slogan .card-slogan .sub-title{
+    text-align: center;
+    width: 300px;
+}
+
+.home main .contain-slogan .card-slogan button{
+    text-align: center;
+    width: 300px;
+    height: 3rem;
+    background-color: #17ae4e;
+    border: none;
+    border-radius: 50px;
+    color: rgb(41, 65, 171);
+}
+
+.home main .contain-slogan .card-slogan button:hover{
+    cursor: pointer;
+    background-color: #1fcb5e;
+}
+
+.home main .contain-recommendation{
+    text-align: center;
+}
+
+.home main .contain-recommendation .title{
+    margin: 0 0 16px 0;
+    font-size: 3rem;
+    color: #17ae4e;
+}
+
+.home main .contain-recommendation .contain-cards{
+    height: 13rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home main .contain-recommendation .contain-cards #recommendation{
+    display: none;
+}
+
+.home main .contain-recommendation .contain-cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px 8px rgba(0,0,0,1);
+}
+
+.home main .contain-recommendation .contain-cards .card:hover {
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,1);
+}
+
+.home main .contain-recommendation .contain-cards .card p{
+    font-size: 1rem;
+    margin: 0 0;
+}
+
+.home main .contain-recommendation .contain-cards .card .img {
+    width: 100%;
+    height: 60%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.home main .contain-recommendation .contain-cards .card .img .photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.home main .contain-recommendation .contain-cards .card button {
+    background-color: #17ae4e;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    height: 1.5rem;
+    width: 60%;
+}
+
+.home main .contain-recommendation .contain-cards .card button:hover {
+    cursor: pointer;
+    background-color: #1fcb5e;
+}
+
+.home main .contain-recommendation .contain-cards .card .img .logo{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+
+    .home main .contain-slogan .card-slogan .title{
+        font-size: 6rem;
+        width: 100%;
+    }
+
+    .home main .contain-recommendation .contain-cards{
+        height: 28rem;
+    }
+
+    .home main .contain-recommendation .contain-cards .card{
+        width: 280px;
+    }
+
+    .home main .contain-recommendation .contain-cards .card .img .logo{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .home main .contain-slogan .card-slogan .title{
+        font-size: 7rem;
+        width: 100%;
+    }
+
+    .home main .contain-slogan .card-slogan .sub-title{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .home main .contain-slogan .card-slogan button{
+        text-align: center;
+        width: 350px;
+        height: 3.5rem;
+    }
+
+    .home main .contain-recommendation .title{
+        font-size: 6rem;
+    }
+
+    .home main .contain-recommendation .contain-cards #recommendation{
+        display: flex;
+    }
+
+    .home main .contain-recommendation .contain-cards .card .img .logo{
+        width: 2rem;
+        height: 2rem;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .home main .contain-recommendation .title{
+        margin: 0 0 40px 0;
+    }
+
+    .home main .contain-recommendation .contain-cards{
+        height: 40rem;
+    }
+
+    .home main .contain-recommendation .contain-cards .card p{
+        font-size: 2rem;
+    }
+
+    .home main .contain-recommendation .contain-cards .card{
+        width: 400px;
+    }
+
+    .home main .contain-recommendation .contain-cards .card button {
+        background-color: #17ae4e;
+        border: none;
+        border-radius: 20px;
+        font-size: 1rem;
+        height: 3rem;
+        width: 60%;
+    }
+
+}
